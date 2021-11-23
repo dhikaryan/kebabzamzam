@@ -1,6 +1,6 @@
 /* #991113  */
 body {
-  background-image: url("/img/doodles.png");
+  background-image: url("img/doodles.png");
   background-size: cover;
 }
 
@@ -11,7 +11,7 @@ p {
 /* --------Navbar------ */
 .navbar {
   /* background-color: #991113; */
-  background-image: url("/img/bg2.jpeg");
+  background-image: url("img/bg2.jpeg");
   background-size: cover;
   background-position: 0 -1000px;
 }
