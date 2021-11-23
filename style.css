@@ -1,0 +1,241 @@
+/* #991113  */
+body {
+  background-image: url("/img/doodles.png");
+  background-size: cover;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* --------Navbar------ */
+.navbar {
+  /* background-color: #991113; */
+  background-image: url("/img/bg2.jpeg");
+  background-size: cover;
+  background-position: 0 -1000px;
+}
+.nav .navbar-brand img {
+  width: 65px;
+  padding-bottom: 0%;
+  /* border: 1px solid white; */
+  border-radius: 50px;
+}
+.nav .judul {
+  font-family: "Annie Use Your Telescope";
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  margin-top: 10px;
+  margin-right: 45px;
+  text-shadow: black 1px 1px 10px;
+}
+/* --------Akhir Navbar------ */
+
+.container-duo {
+  position: relative;
+  width: 100%;
+  margin-top: 30px;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  /* background-color: #991113; */
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  border-radius: 10px;
+}
+.container-duo:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.text {
+  font-family: "Annie Use Your Telescope";
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: black 1px 1px 10px;
+}
+.text a {
+  text-decoration: none;
+  color: white;
+  text-shadow: black 1px 1px 10px;
+}
+.text a:hover {
+  border-bottom: 2px solid white;
+}
+
+.cardi {
+  margin-bottom: 50px;
+}
+
+/* -------testimoni------- */
+.containernew {
+  max-width: 100%;
+  /* border: 1px solid black; */
+  margin: 20px auto;
+  padding: 20px;
+}
+.testimoni {
+  max-width: 700px;
+  border: 2px solid #991113;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.testimoni .gambar {
+  text-align: center;
+  /* border: 1px solid blue; */
+}
+.imgtes {
+  width: 80px;
+  border: 1px solid black;
+}
+.bintang {
+  width: 100px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.testimoni .tulisan {
+  margin-top: 20px;
+  position: relative;
+  padding-bottom: 30px;
+}
+.tulisan .nametag1 {
+  text-align: center;
+  font-size: 10px;
+  margin: auto;
+  position: absolute;
+  top: 95%;
+  left: 37%;
+}
+.tulisan .nametag2 {
+  text-align: center;
+  font-size: 10px;
+  margin: auto;
+  position: absolute;
+  top: 95%;
+  left: 39%;
+}
+.tulisan .nametag3 {
+  text-align: center;
+  font-size: 10px;
+  margin: auto;
+  position: absolute;
+  top: 96%;
+  left: 36%;
+}
+
+/* -------footer------- */
+
+.backgroundfo {
+  background-color: #991113;
+  margin-top: 120px;
+}
+.fo {
+  /* border: 1px solid black; */
+  /* background-color: #991113; */
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: -24px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.footerlogo img {
+  /* border: 1px solid black; */
+  /* padding: 10px; */
+  margin-top: 20px;
+  margin-bottom: 10px;
+  transition-duration: 0.5s;
+}
+
+.footerlogo img:hover {
+  transform: translate(-0px, -15px);
+}
+
+.imgwa {
+  width: 48px;
+  margin-right: 10px;
+}
+
+.imginsta {
+  width: 48px;
+}
+
+.imgtoped {
+  width: 70px;
+}
+
+.imgshope {
+  width: 50px;
+}
+
+.fo .copyright {
+  font-family: "Annie Use Your Telescope";
+  font-size: 20px;
+}
+/* Akhir Footer */
+svg {
+  margin-top: -400px;
+}
+
+/* Dekstop */
+@media (min-width: 600px) {
+  .navbar {
+    margin-bottom: 10px;
+  }
+  .nav .navbar-brand img {
+    width: 100px;
+  }
+  .nav .judul {
+    font-size: 45px;
+    margin: auto;
+  }
+  .containernew {
+    display: flex;
+    width: 1000px;
+  }
+  .testimoni {
+    width: 600px;
+    margin: 13px;
+  }
+  .tulisan .nametag1 {
+    top: 150%;
+  }
+  .tulisan .nametag2 {
+    top: 95%;
+  }
+  .tulisan .nametag3 {
+    top: 107%;
+  }
+  .testibesar {
+    transform: scale(1.1);
+  }
+  svg {
+    margin-top: -530px;
+  }
+  .backgroundfo {
+    margin-top: 250px;
+  }
+}
